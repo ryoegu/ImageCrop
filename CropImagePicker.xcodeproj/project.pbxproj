@@ -14,6 +14,10 @@
 		2A5EB7561E0E360D00BC3C74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5EB7541E0E360D00BC3C74 /* LaunchScreen.storyboard */; };
 		2A5EB7611E0E360D00BC3C74 /* CropImagePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5EB7601E0E360D00BC3C74 /* CropImagePickerTests.swift */; };
 		2A5EB76C1E0E360D00BC3C74 /* CropImagePickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5EB76B1E0E360D00BC3C74 /* CropImagePickerUITests.swift */; };
+		2A5EB77E1E0E4CB600BC3C74 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A5EB77D1E0E4CB600BC3C74 /* test.jpg */; };
+		2A61021D6020F1D904170445 /* Pods_CropImagePickerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A54252AFB6CB1BB2C20249 /* Pods_CropImagePickerTests.framework */; };
+		57C46B90A93394C88C4ABE6C /* Pods_CropImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC6FC126040F2CACC322259 /* Pods_CropImagePicker.framework */; };
+		69148E54D4A927B493731293 /* Pods_CropImagePickerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A49F9D06C38BAD7E9C3709BD /* Pods_CropImagePickerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E76894F08D79299CCD67E11 /* Pods-CropImagePickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CropImagePickerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CropImagePickerTests/Pods-CropImagePickerTests.release.xcconfig"; sourceTree = "<group>"; };
 		2A5EB7481E0E360D00BC3C74 /* CropImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CropImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5EB74B1E0E360D00BC3C74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A5EB74D1E0E360D00BC3C74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,16 @@
 		2A5EB7671E0E360D00BC3C74 /* CropImagePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CropImagePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5EB76B1E0E360D00BC3C74 /* CropImagePickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropImagePickerUITests.swift; sourceTree = "<group>"; };
 		2A5EB76D1E0E360D00BC3C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A5EB7791E0E3B4600BC3C74 /* CropImagePicker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CropImagePicker-Bridging-Header.h"; sourceTree = "<group>"; };
+		2A5EB77D1E0E4CB600BC3C74 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		3CC6FC126040F2CACC322259 /* Pods_CropImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CropImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A322B47A0AFBC8F13E4102 /* Pods-CropImagePickerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CropImagePickerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CropImagePickerUITests/Pods-CropImagePickerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6232625A3BF9402A98F9908E /* Pods-CropImagePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CropImagePicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CropImagePicker/Pods-CropImagePicker.debug.xcconfig"; sourceTree = "<group>"; };
+		6E775EC2338FF5A342A5588E /* Pods-CropImagePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CropImagePicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-CropImagePicker/Pods-CropImagePicker.release.xcconfig"; sourceTree = "<group>"; };
+		A49F9D06C38BAD7E9C3709BD /* Pods_CropImagePickerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CropImagePickerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A54252AFB6CB1BB2C20249 /* Pods_CropImagePickerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CropImagePickerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3911852C5FEF8687D78DCEC /* Pods-CropImagePickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CropImagePickerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CropImagePickerTests/Pods-CropImagePickerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F35A82BD353EA57B8650C119 /* Pods-CropImagePickerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CropImagePickerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CropImagePickerUITests/Pods-CropImagePickerUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C46B90A93394C88C4ABE6C /* Pods_CropImagePicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A61021D6020F1D904170445 /* Pods_CropImagePickerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69148E54D4A927B493731293 /* Pods_CropImagePickerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,8 @@
 				2A5EB75F1E0E360D00BC3C74 /* CropImagePickerTests */,
 				2A5EB76A1E0E360D00BC3C74 /* CropImagePickerUITests */,
 				2A5EB7491E0E360D00BC3C74 /* Products */,
+				811AFFD14E892214B406ABEA /* Pods */,
+				54D4D9518D240282D3D19019 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +117,14 @@
 		2A5EB74A1E0E360D00BC3C74 /* CropImagePicker */ = {
 			isa = PBXGroup;
 			children = (
+				2A5EB77D1E0E4CB600BC3C74 /* test.jpg */,
 				2A5EB74B1E0E360D00BC3C74 /* AppDelegate.swift */,
 				2A5EB74D1E0E360D00BC3C74 /* ViewController.swift */,
 				2A5EB74F1E0E360D00BC3C74 /* Main.storyboard */,
 				2A5EB7521E0E360D00BC3C74 /* Assets.xcassets */,
 				2A5EB7541E0E360D00BC3C74 /* LaunchScreen.storyboard */,
 				2A5EB7571E0E360D00BC3C74 /* Info.plist */,
+				2A5EB7791E0E3B4600BC3C74 /* CropImagePicker-Bridging-Header.h */,
 			);
 			path = CropImagePicker;
 			sourceTree = "<group>";
@@ -125,6 +147,29 @@
 			path = CropImagePickerUITests;
 			sourceTree = "<group>";
 		};
+		54D4D9518D240282D3D19019 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CC6FC126040F2CACC322259 /* Pods_CropImagePicker.framework */,
+				C3A54252AFB6CB1BB2C20249 /* Pods_CropImagePickerTests.framework */,
+				A49F9D06C38BAD7E9C3709BD /* Pods_CropImagePickerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		811AFFD14E892214B406ABEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6232625A3BF9402A98F9908E /* Pods-CropImagePicker.debug.xcconfig */,
+				6E775EC2338FF5A342A5588E /* Pods-CropImagePicker.release.xcconfig */,
+				D3911852C5FEF8687D78DCEC /* Pods-CropImagePickerTests.debug.xcconfig */,
+				0E76894F08D79299CCD67E11 /* Pods-CropImagePickerTests.release.xcconfig */,
+				61A322B47A0AFBC8F13E4102 /* Pods-CropImagePickerUITests.debug.xcconfig */,
+				F35A82BD353EA57B8650C119 /* Pods-CropImagePickerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A5EB7701E0E360D00BC3C74 /* Build configuration list for PBXNativeTarget "CropImagePicker" */;
 			buildPhases = (
+				2C5AD6E5CAA1F830A0C3970E /* [CP] Check Pods Manifest.lock */,
 				2A5EB7441E0E360C00BC3C74 /* Sources */,
 				2A5EB7451E0E360C00BC3C74 /* Frameworks */,
 				2A5EB7461E0E360C00BC3C74 /* Resources */,
+				AD51469E05F76E0F56A6CD80 /* [CP] Embed Pods Frameworks */,
+				EF7FFBA19C52F2782A2E01FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A5EB7731E0E360D00BC3C74 /* Build configuration list for PBXNativeTarget "CropImagePickerTests" */;
 			buildPhases = (
+				05FE9FFD2F1C737495457615 /* [CP] Check Pods Manifest.lock */,
 				2A5EB7581E0E360D00BC3C74 /* Sources */,
 				2A5EB7591E0E360D00BC3C74 /* Frameworks */,
 				2A5EB75A1E0E360D00BC3C74 /* Resources */,
+				C5694FD7E66B64FE6D0E38D6 /* [CP] Embed Pods Frameworks */,
+				58783984B70C300B90E85950 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A5EB7761E0E360D00BC3C74 /* Build configuration list for PBXNativeTarget "CropImagePickerUITests" */;
 			buildPhases = (
+				03790CED3DB0D31E93ABD159 /* [CP] Check Pods Manifest.lock */,
 				2A5EB7631E0E360D00BC3C74 /* Sources */,
 				2A5EB7641E0E360D00BC3C74 /* Frameworks */,
 				2A5EB7651E0E360D00BC3C74 /* Resources */,
+				418CD4CA037718F3118FAB75 /* [CP] Embed Pods Frameworks */,
+				F9A2A8F9E3CC6F4ABA750240 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +248,7 @@
 					2A5EB7471E0E360C00BC3C74 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = ECGZQ9XKG7;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					2A5EB75B1E0E360D00BC3C74 = {
@@ -237,6 +292,7 @@
 			files = (
 				2A5EB7561E0E360D00BC3C74 /* LaunchScreen.storyboard in Resources */,
 				2A5EB7531E0E360D00BC3C74 /* Assets.xcassets in Resources */,
+				2A5EB77E1E0E4CB600BC3C74 /* test.jpg in Resources */,
 				2A5EB7511E0E360D00BC3C74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +312,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03790CED3DB0D31E93ABD159 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		05FE9FFD2F1C737495457615 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2C5AD6E5CAA1F830A0C3970E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		418CD4CA037718F3118FAB75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CropImagePickerUITests/Pods-CropImagePickerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58783984B70C300B90E85950 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CropImagePickerTests/Pods-CropImagePickerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD51469E05F76E0F56A6CD80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CropImagePicker/Pods-CropImagePicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5694FD7E66B64FE6D0E38D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CropImagePickerTests/Pods-CropImagePickerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF7FFBA19C52F2782A2E01FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CropImagePicker/Pods-CropImagePicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9A2A8F9E3CC6F4ABA750240 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CropImagePickerUITests/Pods-CropImagePickerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2A5EB7441E0E360C00BC3C74 /* Sources */ = {
@@ -411,32 +605,40 @@
 		};
 		2A5EB7711E0E360D00BC3C74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6232625A3BF9402A98F9908E /* Pods-CropImagePicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = ECGZQ9XKG7;
 				INFOPLIST_FILE = CropImagePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = EguchiEdu.CropImagePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CropImagePicker/CropImagePicker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		2A5EB7721E0E360D00BC3C74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E775EC2338FF5A342A5588E /* Pods-CropImagePicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = ECGZQ9XKG7;
 				INFOPLIST_FILE = CropImagePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = EguchiEdu.CropImagePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CropImagePicker/CropImagePicker-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		2A5EB7741E0E360D00BC3C74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3911852C5FEF8687D78DCEC /* Pods-CropImagePickerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +654,7 @@
 		};
 		2A5EB7751E0E360D00BC3C74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E76894F08D79299CCD67E11 /* Pods-CropImagePickerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +670,7 @@
 		};
 		2A5EB7771E0E360D00BC3C74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A322B47A0AFBC8F13E4102 /* Pods-CropImagePickerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = ECGZQ9XKG7;
@@ -481,6 +685,7 @@
 		};
 		2A5EB7781E0E360D00BC3C74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F35A82BD353EA57B8650C119 /* Pods-CropImagePickerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = ECGZQ9XKG7;
@@ -512,6 +717,7 @@
 				2A5EB7721E0E360D00BC3C74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A5EB7731E0E360D00BC3C74 /* Build configuration list for PBXNativeTarget "CropImagePickerTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +726,7 @@
 				2A5EB7751E0E360D00BC3C74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A5EB7761E0E360D00BC3C74 /* Build configuration list for PBXNativeTarget "CropImagePickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +735,7 @@
 				2A5EB7781E0E360D00BC3C74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
